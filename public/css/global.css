@@ -1,0 +1,73 @@
+/* Cores base da logo */
+:root {
+  --azul-claro: #6ec1e4;
+  --amarelo-logo: #f9d423;
+  --preto-logo: #111111;
+}
+
+/* Estilo global */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--preto-logo);
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* Navbar fixa */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: var(--azul-claro);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 60px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Logo e texto */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 45px; /* aumenta visibilidade sem alterar altura da navbar */
+  width: auto;
+  object-fit: contain;
+}
+
+.logo span {
+  font-weight: bold;
+  color: var(--amarelo-logo);
+  font-size: 18px;
+}
+
+/* Menu de navegação */
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: var(--amarelo-logo);
+}
+
+/* Footer */
+footer {
+  background-color: var(--azul-claro);
+  color: black;
+  text-align: center;
+  padding: 10px;
+}

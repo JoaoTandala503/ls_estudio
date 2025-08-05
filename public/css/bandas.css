@@ -1,0 +1,102 @@
+.bandas-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.titulo-bandas {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #222;
+}
+
+.genero {
+  margin-bottom: 3rem;
+}
+
+.genero-titulo {
+  font-size: 1.8rem;
+  color: #fff;
+  margin-bottom: 1rem;
+  border-left: 5px solid #ff6600;
+  padding-left: 10px;
+}
+
+.galeria-bandas {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.card-banda {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  width: 220px;
+  transition: transform 0.3s;
+}
+
+.card-banda:hover {
+  transform: translateY(-5px);
+}
+
+.card-banda img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-banda h4 {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.card-banda {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 300px;
+    transition: transform 0.3s;
+}
+
+.card-banda:hover {
+    transform: scale(1.03);
+}
+
+.card-banda img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card-banda h3 {
+    font-size: 1.2rem;
+    margin: 10px 0 5px;
+    color: #222;
+}
+
+.descricao-banda {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.botao-ver-mais {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.botao-ver-mais:hover {
+    background-color: #0056b3;
+}

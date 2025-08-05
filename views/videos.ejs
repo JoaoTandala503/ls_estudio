@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vídeos | LS Vilson World</title>
+  <link rel="stylesheet" href="/css/global.css" />
+  <link rel="stylesheet" href="/css/videos.css" />
+</head>
+<body>
+  <%- include('partials/header') %>
+
+  <main class="videos-container">
+    <header>
+      <h1 class="titulo-videos">Vídeos da LS Vilson World</h1>
+    </header>
+
+    <!-- Aberturas -->
+    <section class="secao-videos" aria-labelledby="titulo-aberturas">
+      <h2 id="titulo-aberturas">Aberturas</h2>
+      <div class="grade-videos">
+        <article class="video-card">
+          <iframe
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            title="Abertura Vilson Boys"
+            allowfullscreen
+          ></iframe>
+          <p>Abertura oficial da série Vilson Boys.</p>
+        </article>
+        <!-- Outros vídeos podem ser adicionados aqui -->
+      </div>
+    </section>
+
+    <!-- Trailers -->
+    <section class="secao-videos" aria-labelledby="titulo-trailers">
+      <h2 id="titulo-trailers">Trailers</h2>
+      <div class="grade-videos">
+        <article class="video-card">
+          <iframe
+            src="https://www.youtube.com/embed/oHg5SJYRHA0"
+            title="Trailer Power Beats"
+            allowfullscreen
+          ></iframe>
+          <p>Trailer da nova temporada de Power Beats.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Bastidores -->
+    <section class="secao-videos" aria-labelledby="titulo-bastidores">
+      <h2 id="titulo-bastidores">Bastidores</h2>
+      <div class="grade-videos">
+        <article class="video-card">
+          <iframe
+            src="https://www.youtube.com/embed/tgbNymZ7vqY"
+            title="Bastidores Anime Rockers"
+            allowfullscreen
+          ></iframe>
+          <p>Imagens dos bastidores com os criadores da série.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <%- include('partials/footer') %>
+</body>
+</html>

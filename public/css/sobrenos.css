@@ -1,0 +1,54 @@
+.sobre-nos {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.sobre-nos .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sobre-nos h1 {
+  font-size: 2.8em;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.sobre-nos h2 {
+  font-size: 2.2em;
+  color: #003366;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #003366;
+}
+
+.sobre-nos h3 {
+  font-size: 1.6em;
+  color: #004080;
+  margin-bottom: 15px;
+}
+
+.sobre-nos h4 {
+  font-size: 1.3em;
+  color: #0055aa;
+  margin-bottom: 10px;
+}
+
+.secao {
+  margin-bottom: 60px;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.info-card {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
